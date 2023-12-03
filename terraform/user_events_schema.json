@@ -1,0 +1,11 @@
+[
+	{ "name": "event_time", "type": "TIMESTAMP", "mode": "NULLABLE" },
+	{ "name": "event_type", "type": "STRING", "mode": "NULLABLE" },
+	{ "name": "product_id", "type": "STRING", "mode": "NULLABLE" },
+	{ "name": "category_id", "type": "STRING", "mode": "NULLABLE" },
+	{ "name": "category_code", "type": "STRING", "mode": "NULLABLE" },
+	{ "name": "brand", "type": "STRING", "mode": "NULLABLE" },
+	{ "name": "price", "type": "FLOAT", "mode": "NULLABLE" },
+	{ "name": "user_id", "type": "STRING", "mode": "NULLABLE" },
+	{ "name": "user_session", "type": "STRING", "mode": "NULLABLE" }
+]

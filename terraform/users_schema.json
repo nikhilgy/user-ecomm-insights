@@ -1,0 +1,33 @@
+[
+	{ "name": "CLIENTNUM", "type": "STRING", "mode": "NULLABLE" },
+	{ "name": "Attrition_Flag", "type": "STRING", "mode": "NULLABLE" },
+	{ "name": "Customer_Age", "type": "INTEGER", "mode": "NULLABLE" },
+	{ "name": "Gender", "type": "STRING", "mode": "NULLABLE" },
+	{ "name": "Dependent_count", "type": "INTEGER", "mode": "NULLABLE" },
+	{ "name": "Education_Level", "type": "STRING", "mode": "NULLABLE" },
+	{ "name": "Marital_Status", "type": "STRING", "mode": "NULLABLE" },
+	{ "name": "Income_Category", "type": "STRING", "mode": "NULLABLE" },
+	{ "name": "Card_Category", "type": "STRING", "mode": "NULLABLE" },
+	{ "name": "Months_on_book", "type": "INTEGER", "mode": "NULLABLE" },
+	{ "name": "Total_Relationship_Count", "type": "INTEGER", "mode": "NULLABLE" },
+	{ "name": "Months_Inactive_12_mon", "type": "INTEGER", "mode": "NULLABLE" },
+	{ "name": "Contacts_Count_12_mon", "type": "INTEGER", "mode": "NULLABLE" },
+	{ "name": "Credit_Limit", "type": "FLOAT", "mode": "NULLABLE" },
+	{ "name": "Total_Revolving_Bal", "type": "INTEGER", "mode": "NULLABLE" },
+	{ "name": "Avg_Open_To_Buy", "type": "FLOAT", "mode": "NULLABLE" },
+	{ "name": "Total_Amt_Chng_Q4_Q1", "type": "FLOAT", "mode": "NULLABLE" },
+	{ "name": "Total_Trans_Amt", "type": "INTEGER", "mode": "NULLABLE" },
+	{ "name": "Total_Trans_Ct", "type": "INTEGER", "mode": "NULLABLE" },
+	{ "name": "Total_Ct_Chng_Q4_Q1", "type": "FLOAT", "mode": "NULLABLE" },
+	{ "name": "Avg_Utilization_Ratio", "type": "FLOAT", "mode": "NULLABLE" },
+	{
+		"name": "Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1",
+		"type": "FLOAT",
+		"mode": "NULLABLE"
+	},
+	{
+		"name": "Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2",
+		"type": "FLOAT",
+		"mode": "NULLABLE"
+	}
+]
